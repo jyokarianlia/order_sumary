@@ -12,6 +12,25 @@ body {
   background-color: #e0e8ff;
 }
 
+@media (min-width: 576px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+  body .flex {
+    height: 97vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .flex main {
+    width: 400px;
+  }
+  body .flex main .alerta p {
+    width: 150px;
+    text-align: left;
+  }
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,16 +42,26 @@ body {
 }
 
 .flex main {
-  width: 345px;
+  width: 335px;
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
   background-color: #f5f7ff;
+  margin-top: 4.5em;
+  margin-bottom: 4.5em;
+  -webkit-box-shadow: 0px 15px 25px -11px #7280a7;
+          box-shadow: 0px 15px 25px -11px #7280a7;
+}
+
+.flex main .img {
+  width: 100%;
+  height: 160px;
 }
 
 .flex main h2 {
   padding: 1.5em 0 1em 0;
   font-weight: 900;
+  color: #1f2f56;
 }
 
 .flex main .parrafo {
@@ -61,12 +90,17 @@ body {
 }
 
 .flex main .alerta p span {
-  color: black;
+  color: #1f2f56;
   font-weight: 700;
 }
 
 .flex main .alerta a {
   font-weight: 700;
+}
+
+.flex main .alerta a:hover {
+  color: #3829e0;
+  font-weight: 900;
 }
 
 .flex main .btn {
@@ -76,6 +110,7 @@ body {
   border: none;
   border-radius: 10px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .flex main .btnPago {
@@ -85,8 +120,20 @@ body {
           box-shadow: 0px 20px 15px -6px rgba(114, 128, 167, 0.5);
 }
 
+.flex main .btnPago:hover {
+  background-color: #3829e0;
+  -webkit-transition: background-color ease .3s;
+  transition: background-color ease .3s;
+  font-weight: 900;
+}
+
 .flex main .btnCancelar {
   background-color: rgba(224, 232, 255, 0);
   color: #7280a7;
+}
+
+.flex main .btnCancelar:hover {
+  color: #1f2f56;
+  font-weight: 900;
 }
 /*# sourceMappingURL=index.css.map */
