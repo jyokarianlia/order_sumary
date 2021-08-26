@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.flex main {
+  width: 345px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.flex main h2 {
+  padding: 1.5em 0 1em 0;
+  font-weight: 900;
+}
+
+.flex main .parrafo {
+  padding: 0 2.5em;
+  color: #7280a7;
+}
+
+.flex main .alerta {
+  background-color: rgba(224, 232, 255, 0.4);
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  margin: 1.6em auto;
+  padding: .5em 0;
+}
+
+.flex main .alerta p {
+  color: #7280a7;
+}
+
+.flex main .alerta p span {
+  color: black;
+  font-weight: 700;
+}
+
+.flex main .alerta a {
+  font-weight: 700;
+}
+
+.flex main .btn {
+  width: 80%;
+  padding: .8em 0;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.flex main .btnPago {
+  background-color: Blue;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
