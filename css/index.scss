@@ -32,7 +32,7 @@ body{
         text-align: center;
         overflow: hidden;
         border-radius: 15px;
-        background-color: white;
+        background-color: $VeryPaleBlue;
 
         h2 {
             padding: 1.5em 0 1em 0;
@@ -79,7 +79,13 @@ body{
 
         .btnPago {
             background-color: Blue;
-            color: white;
+            color: $VeryPaleBlue;
+            box-shadow: 0px 20px 15px -6px rgba($color: $DesaturateBlue, $alpha: .5);
+        }
+
+        .btnCancelar {
+            background-color: rgba($color: $PaleBlue, $alpha: 0);
+            color: $DesaturateBlue;
         }
     }
 }

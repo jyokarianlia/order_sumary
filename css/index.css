@@ -27,7 +27,7 @@ body {
   text-align: center;
   overflow: hidden;
   border-radius: 15px;
-  background-color: white;
+  background-color: #f5f7ff;
 }
 
 .flex main h2 {
@@ -80,6 +80,13 @@ body {
 
 .flex main .btnPago {
   background-color: Blue;
-  color: white;
+  color: #f5f7ff;
+  -webkit-box-shadow: 0px 20px 15px -6px rgba(114, 128, 167, 0.5);
+          box-shadow: 0px 20px 15px -6px rgba(114, 128, 167, 0.5);
+}
+
+.flex main .btnCancelar {
+  background-color: rgba(224, 232, 255, 0);
+  color: #7280a7;
 }
 /*# sourceMappingURL=index.css.map */
